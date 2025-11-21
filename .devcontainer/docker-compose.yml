@@ -20,7 +20,7 @@ services:
       retries: 10
   app:
 #     image: alchatti/drupal-devcontainer:8.1
-    image: mcr.microsoft.com/devcontainers/php:8.0
+    image: mcr.microsoft.com/devcontainers/php:8.4
     env_file:
       - "./devcontainer.env"
     volumes:

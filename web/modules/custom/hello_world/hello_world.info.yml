@@ -1,0 +1,5 @@
+name: 'Hello World Module'
+type: module
+description: 'Provides a custom block that displays a greeting with the current day of the week.'
+core_version_requirement: ^11
+package: Custom
